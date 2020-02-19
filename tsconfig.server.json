@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "types": [
+      "node", "reflect-metadata", "express"
+    ],
+    "typeRoots": ["node_modules/@types"],
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node"
+  },
+  "compileOnSave": false,
+  "files": [
+    "App.ts"
+  ]
+}
