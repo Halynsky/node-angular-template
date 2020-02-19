@@ -7,7 +7,7 @@
     "build:frontend": "rimraf ./dist/frontend && ng build --prod",
     "start": "node -optimize_for_size --max_old_space_size=460 --gc_interval=100 dist/App.js",
     "start:dev": "node --require dotenv/config dist/App.js",
-    "start-fron:dev": "ng serve",
+    "start-frontend:dev": "ng serve",
     "clean": "rimraf ./dist",
     "test": "ng test",
     "lint": "ng lint",
