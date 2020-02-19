@@ -25,7 +25,7 @@
               "frontend/manifest.webmanifest"
             ],
             "styles": [
-              "frontend/styles.css"
+              "frontend/styles.scss"
             ],
             "scripts": []
           },
@@ -92,7 +92,7 @@
               "frontend/manifest.webmanifest"
             ],
             "styles": [
-              "frontend/styles.css"
+              "frontend/styles.scss"
             ],
             "scripts": []
           }
